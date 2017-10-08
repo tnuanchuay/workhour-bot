@@ -35,6 +35,6 @@ function deploy() {
         if (err)
             bot.postMessageToChannel(channel, `:scream: Sumimasen !!, ${err}`)
         else
-            bot.postMessageToChannel(channel, `Hai!! Wakarimasu., Deploying Workhour project`);
+            bot.postMessageToChannel(channel, `Hai!! Wakarimashita., Deploying Workhour project`);
     });
 }
