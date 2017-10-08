@@ -12,7 +12,7 @@ bot.on('start', () => {
     bot.postMessageToChannel(channel, `Meow! I'm Mio look forward to help you., Senpai!`);
     jenkins.info(function(err, data) {
         if (err)
-            bot.postMessageToChannel(channel, `Henn da na, I'm thinking something wrong with jenkins. :scream:`)
+            bot.postMessageToChannel(channel, `Nanika henn, I'm thinking something wrong with jenkins. :scream:`)
       });
 });
 
